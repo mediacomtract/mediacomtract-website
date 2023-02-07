@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>ميديا كونتراكت للانظمة الأمنية</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="mediacotract.css">
+    </head> 
+<body>
+<div class="divhead">
+        <div class="inhead2"><h3>Media Contract - Guides you for the perfect choice </h3></div>
+        <div class="inhead1"><a href="https://facebook.com/"><img src="pic/social/facebook.png" alt="facebook"></a>
+            <a href="https://twitter.com/"><img src="pic/social/twitter.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img src="pic/social/instgram.png" alt="facebook"></a>
+</div></div>
+<div class="divhead2">
+    <div class="inlogo"><img src="pic/logo/logo.jpg" alt="mediacontract"></img></div>
+    <div class="inaddress">
+    <img src="pic/contact/call.png"></img><a href="tel:01007133369">01007133369</a>
+    <img src="pic/contact/mail.png"></img><a href="mailto:info@mediacontract.com">info@mediacontract.com</a>
+    <img src="pic/contact/location.png"></img><p>الجيزة - مصر</p>
+</div>
+</div>
+    <div><ul>
+        <li><a class="active" href="#home">الرئيسية</a></li>
+        <li><a href="#news">خدماتنا</a></li>
+        <li><a href="#contact">عن الشركة</a></li>
+        <li><a href="#about">الاتصال بنا</a></li>
+      </ul></div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="pic/slideshow/covercctv.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="pic/slideshow/CCTV.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="pic/slideshow/coverpanel.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="pic/slideshow/firepanel.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="pic/slideshow/covernetwork.jpg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="pic/slideshow/network.jpg" style="width:100%">
+          </div>
+        </div>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script> 
+        <div class="ourcus"><h2>شركائنا</h2><br><br><br>
+            <img src="pic\customer\1.png" alt=""></img><img src="pic\customer\2.png" alt=""></img>
+            <img src="pic\customer\3.png" alt=""></img><img src="pic\customer\4.png" alt=""></img>
+            <img src="pic\customer\5.png" alt=""></img><img src="pic\customer\6.png" alt=""></img>
+            <img src="pic\customer\7.png" alt=""></img><img src="pic\customer\8.png" alt=""></img>
+            <img src="pic\customer\9.png" alt=""></img><img src="pic\customer\10.png" alt=""></img>
+            <img src="pic\customer\11.png" alt=""></img><img src="pic\customer\12.png" alt=""></img>
+            <img src="pic\customer\13.png" alt=""></img><img src="pic\customer\14.png" alt=""></img>
+            <img src="pic\customer\15.png" alt=""></img><img src="pic\customer\16.png" alt=""></img>
+            <img src="pic\customer\17.png" alt=""></img><img src="pic\customer\18.png" alt=""></img>
+            <img src="pic\customer\19.png" alt=""></img><img src="pic\customer\20.png" alt=""></img>
+            </div>       
+</body>
+</html>
